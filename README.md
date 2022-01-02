@@ -2,7 +2,7 @@
 
 Coding exercise for learning the fundamentals of GraphQL by interacting with the SpaceX API.
 
-[Demo 🚀](http://localhost:3000)
+[Demo 🚀](https://gabrieldonas.github.io/spacex-apollo/)
 
 ### Built with
 
