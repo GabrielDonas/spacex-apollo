@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/spacex-apollo/static/css/main.2895eb15.css",
+    "main.js": "/spacex-apollo/static/js/main.008b187c.js",
+    "static/media/arimo-all-400-normal.woff": "/spacex-apollo/static/media/arimo-all-400-normal.287741cb2369b8a53cda.woff",
+    "static/media/arimo-latin-ext-400-normal.woff2": "/spacex-apollo/static/media/arimo-latin-ext-400-normal.af0a2f5248ef1a5745b9.woff2",
+    "static/media/arimo-cyrillic-ext-400-normal.woff2": "/spacex-apollo/static/media/arimo-cyrillic-ext-400-normal.7274bc70ac9f10021ac3.woff2",
+    "static/media/arimo-latin-400-normal.woff2": "/spacex-apollo/static/media/arimo-latin-400-normal.286d69678edb6096ddb5.woff2",
+    "static/media/arimo-greek-400-normal.woff2": "/spacex-apollo/static/media/arimo-greek-400-normal.2e308c236b93a97c7b8c.woff2",
+    "static/media/arimo-cyrillic-400-normal.woff2": "/spacex-apollo/static/media/arimo-cyrillic-400-normal.2ba4a79e3113b790e2dc.woff2",
+    "static/media/arimo-hebrew-400-normal.woff2": "/spacex-apollo/static/media/arimo-hebrew-400-normal.b9e3a550499a1778e0b8.woff2",
+    "static/media/arimo-greek-ext-400-normal.woff2": "/spacex-apollo/static/media/arimo-greek-ext-400-normal.d5bb1230495a0d64b1db.woff2",
+    "static/media/arimo-vietnamese-400-normal.woff2": "/spacex-apollo/static/media/arimo-vietnamese-400-normal.c0af09a9a7e486a68fb5.woff2",
+    "index.html": "/spacex-apollo/index.html",
+    "main.2895eb15.css.map": "/spacex-apollo/static/css/main.2895eb15.css.map",
+    "main.008b187c.js.map": "/spacex-apollo/static/js/main.008b187c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2895eb15.css",
+    "static/js/main.008b187c.js"
+  ]
+}
