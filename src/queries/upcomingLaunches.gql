@@ -1,0 +1,11 @@
+query upcomingLaunchesList {
+  launchesUpcoming {
+    details
+    launch_date_local
+    id
+    mission_name
+    rocket {
+      rocket_name
+    }
+  }
+}

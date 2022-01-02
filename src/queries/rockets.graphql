@@ -1,0 +1,8 @@
+query rocketsList {
+  rockets {
+    company
+    description
+    wikipedia
+    id
+  }
+}

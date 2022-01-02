@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
+
+import { themeVar } from "./cache";
+import { useReactiveVar } from "@apollo/client";
+import Sections from "./components/Sections/Sections";
+import MainSection from "./components/MainSection/MainSection";
+import { Box, Container } from "@mui/material";
 
 function App() {
+  const darkThemeStyle = { backgroundColor: "rgb(35, 35, 35)", color: "white" };
+  const lightThemeStyle = { backgroundColor: "white", color: "black" };
+
+  const theme =
+    useReactiveVar(themeVar) === "lightTheme"
+      ? lightThemeStyle
+      : darkThemeStyle;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box sx={theme}>
+      <Header />
+      <Sections />
+      <MainSection />
+    </Box>
   );
 }
 
