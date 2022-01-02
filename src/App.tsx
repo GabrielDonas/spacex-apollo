@@ -4,7 +4,7 @@ import { themeVar } from "./cache";
 import { useReactiveVar } from "@apollo/client";
 import Sections from "./components/Sections/Sections";
 import MainSection from "./components/MainSection/MainSection";
-import { Box, Container } from "@mui/material";
+import { Box } from "@mui/material";
 
 function App() {
   const darkThemeStyle = { backgroundColor: "rgb(35, 35, 35)", color: "white" };
