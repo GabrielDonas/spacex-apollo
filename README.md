@@ -1,6 +1,6 @@
 ## spaceX-apollo
 
-Coding exercise for learning the fundamentals of GraphQL by interacting with the SpaceX API.\
+Coding exercise for learning the fundamentals of GraphQL by interacting with the SpaceX API.
 
 [Demo 🚀](http://localhost:3000)
 
@@ -13,5 +13,3 @@ Coding exercise for learning the fundamentals of GraphQL by interacting with the
 - [GraphQL Code Generator](https://www.graphql-code-generator.com/)
 - [Material-UI](https://mui.com/)
 - [SpaceX Web API](https://api.spacex.land/graphql/)
-
-Runs the app in the development mode.\
